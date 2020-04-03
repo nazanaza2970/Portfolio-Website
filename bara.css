@@ -1,0 +1,114 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	float:right;
+}
+
+.Top{
+	height:9em;
+	text-align: center;
+	padding-bottom:0em;
+	background-color:#0C2D48;
+	z-index:1;
+	overflow: hidden;
+	color:white;
+	/* position:sticky; */
+	/* top:0; */
+}
+
+.Our_story{
+	height: 25em;
+	text-align:center;
+	padding:2em;
+	overflow: hidden;
+	background-color:#FBF6F3;
+}
+
+.Service_1{
+	height: 30em;
+	padding:2em;
+	overflow: hidden;
+	text-align:center;
+	background-color:white;
+}
+
+.Service_2{
+	height: 30em;
+	padding:2em;
+	position:relative;
+	top:0;
+	text-align:center;
+	overflow: hidden;
+	background-color:white;
+}
+
+.Portfolio{
+	height: 30em;
+	padding:2em;
+	text-align:center;
+	overflow: hidden;
+	background-color:white;
+}
+
+.Contact_info{
+	height:6em;
+	background-color:#274472;
+	padding-top:0.5em;
+	margin-top:0.5em;
+	padding-left:1em;
+}
+
+h3,h4{
+	
+	font-weight:bold;
+}
+
+p{
+	color: black;
+}
+
+img{
+	padding-top:1em ;
+	height: 100%;
+	width:100%;
+	border:0px;
+}
+
+a:link{
+	color:white;
+	font-weight:bold;
+	z-index:2;
+	text-decoration: none;
+}
+a:visited{
+		color:white;
+	text-decoration: underline;
+}
+a:hover{
+		color:white;
+	text-shadow:0px 0px blue;
+	text-decoration: none;
+	background-color:#113;
+	border-radius: 20px;
+}
+
+a{
+	padding:0.75em 1em;
+}
+
+.material-icons{
+	padding:o.75em 0.5em;
+	font-family: 'FontAwesome';
+}
+
+.navbar{
+	position:sticky;
+	top:0;
+	background-color:#0C2D48;
+	text-align: center;
+	padding-top:0.5em;
+	z-index:1;
+	border-radius:0;
+}
+em{
+	color:white;
+}
